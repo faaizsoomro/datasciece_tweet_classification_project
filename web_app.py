@@ -13,6 +13,7 @@ from datasets.helper_functions import plot_and_return_top_features
 import streamlit as st 
 
 def main():
+    st.set_option('deprecation.showPyplotGlobalUse', False)
     st.title("Who's Tweeting? Trump or Trudeau?")
     st.sidebar.title("Tweet Classification Web App")
     
